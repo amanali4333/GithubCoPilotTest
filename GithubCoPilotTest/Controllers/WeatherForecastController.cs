@@ -11,8 +11,6 @@ namespace GithubCoPilotTest.Controllers
     // add a controller class that use the business logic of WeatherForecastBL class 
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        
         // add a constructor that will inject the logger
         private readonly ILogger<WeatherForecastController> _logger;
 
